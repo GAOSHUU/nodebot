@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose')
 const app = express();
 
-mongoose.connect('mongodb+srv://reminder:reminder@cluster0-plebb.mongodb.net/reminder?retryWrites=true', {
+mongoose.connect('mongodb+srv://fury:kingmu910@cluster0-plebb.mongodb.net/telebot?retryWrites=true', {
     useNewUrlParser: true
 });
 
